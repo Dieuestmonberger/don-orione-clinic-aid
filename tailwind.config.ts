@@ -63,6 +63,15 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			backgroundImage: {
+				'gradient-medical': 'var(--gradient-medical)',
+				'gradient-hope': 'var(--gradient-hope)',
+				'gradient-hero': 'var(--gradient-hero)',
+			},
+			boxShadow: {
+				'medical': 'var(--shadow-medical)',
+				'soft': 'var(--shadow-soft)',
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
